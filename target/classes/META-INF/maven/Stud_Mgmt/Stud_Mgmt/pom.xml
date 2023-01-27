@@ -89,8 +89,8 @@
 <suiteXmlFiles>
 <suiteXmlFile>testngapi.xml</suiteXmlFile>
  <skipTests>false</skipTests>
- <source>1.8</source>
- <target>1.8</target>
+ <source>6</source>
+ <target>1.6</target>
 </suiteXmlFiles>
 </configuration>
 
