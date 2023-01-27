@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4.232 sec <<< FAILURE!
+TC_001(com.org.Tests.TestCase_UserManagement_Operations)  Time elapsed: 0.927 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.org.Tests.TestCase_UserManagement_Operations.TC_001(TestCase_UserManagement_Operations.java:47)
+
+TC_003(com.org.Tests.TestCase_UserManagement_Operations)  Time elapsed: 0.143 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<301>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
+	at com.org.Tests.TestCase_UserManagement_Operations.TC_003(TestCase_UserManagement_Operations.java:88)
+
+TC_004(com.org.Tests.TestCase_UserManagement_Operations)  Time elapsed: 0.154 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<200> but was:<301>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
+	at com.org.Tests.TestCase_UserManagement_Operations.TC_004(TestCase_UserManagement_Operations.java:104)
+
+TC_005(com.org.Tests.TestCase_UserManagement_Operations)  Time elapsed: 0.093 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<201> but was:<301>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:47)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:330)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:66)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:213)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:218)
+	at com.org.Tests.TestCase_UserManagement_Operations.TC_005(TestCase_UserManagement_Operations.java:123)
+
